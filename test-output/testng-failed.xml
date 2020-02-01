@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mave_pkg.maven_demo_test">
+      <class name="mave_pkg.basic_mvnclass">
         <methods>
-          <include name="methd"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- mave_pkg.maven_demo_test -->
+      </class> <!-- mave_pkg.basic_mvnclass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
