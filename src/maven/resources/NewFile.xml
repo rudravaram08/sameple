@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="test mvn Suite">
-  <test thread-count="5" name="Testng mvn">
+
+  <test  name="Testng mvn">
     <packages>
       <package name="mave_pkg"/>
     </packages>
   </test> <!-- Testng mvn -->
+  
 </suite> <!-- test mvn Suite -->
